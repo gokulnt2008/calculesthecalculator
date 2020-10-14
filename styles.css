@@ -1,0 +1,30 @@
+body,html {
+    background-color: palevioletred;
+}
+
+.form {
+    height: 60px;
+    width: 500px;
+    margin: auto;
+    display: inline-block;
+    margin-top: 80px;
+}
+
+.container {
+    width: 550px;
+    height: 90vh;
+    border: 3px solid greenyellow;
+    margin: auto;
+    text-align: center;
+}
+
+#answer {
+    font-size: 30px;
+}
+
+.button {
+    margin-top: 20px;
+    outline: none;
+    height: 40px;
+    width: 200px;
+}

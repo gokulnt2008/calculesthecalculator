@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Javascript codes!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 align="center" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        Calculus The Calculator
+    </h1>
+    <div class="container">
+        <form>
+            <input type="text" id="num1" placeholder="Enter your Number 1" class="form">
+
+            <br>
+
+            <select id="operator" class="form">
+                <option id="plus">+</option>
+                <option id="sub">-</option>
+                <option id="divide">/</option>
+                <option id="mul">*</option>
+            </select>
+            <br>
+            <input type="text" id="num2" placeholder="Enter your Number 2" class="form">
+        </form>
+        
+        <button onclick="calculator()" class="button">Result</button>
+
+        <p id="answer">
+
+        </p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
